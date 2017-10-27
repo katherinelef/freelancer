@@ -1,2 +1,101 @@
-/*letras Esta web utiliza 2 tipografías: Montserrat y Lato.
-colores: #2c3e50, #18bc9c, #212529.*/
+body {
+  margin: 0 auto;
+}
+
+/* ESTILO DE ETIQUETA <nav>*/
+nav {
+  height: 105px;
+  width: 100%;
+  background:#2c3e50;
+  box-sizing: border-box;
+  padding-top: 20px;
+  position: fixed;
+  z-index: 6;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.text-uppercase {
+text-transform: uppercase;
+}
+
+nav p a {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+nav li a {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 10px;
+
+}
+
+li a:hover {
+  color:#18bc9c;
+}
+nav li {
+  display: inline-block;
+
+}
+
+.titulo , .menu{
+  display: inline-block;
+}
+
+.titulo {
+  padding-left: 100px;
+}
+
+.menu {
+  padding-left: 550px;
+}
+
+/* ESTILO DE ETIQUETA <header>*/
+
+header {
+  text-align: center;
+  width: 100%;
+  height: 750px;
+  padding-top: 200px;
+  background:#18bc9c;
+  box-sizing: border-box;
+}
+
+header p {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 75px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.estrella {
+  width: 100%;
+}
+
+header i {
+    color: white;
+}
+
+header i:after {
+    display: inline-block;
+    margin: 8px 20px 8px 20px;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: white;
+    width: 140px;
+}
