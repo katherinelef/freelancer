@@ -79,11 +79,7 @@ header p {
   font-size: 75px;
   font-weight: bold;
   margin-top: 15px;
-  margin-bottom: 0px;
-}
-
-.estrella {
-  width: 100%;
+  margin-bottom: 20px;
 }
 
 header i {
@@ -92,10 +88,45 @@ header i {
 
 header i:after {
     display: inline-block;
-    margin: 8px 20px 8px 20px;
-    height: 3px;
+    margin: 8px 15px 8px 15px;
+    height: 5px;
     content: " ";
-    text-shadow: none;
     background-color: white;
-    width: 140px;
+    width: 100px;
+}
+
+header div {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+/*ESTILO DE ETIQUETA <seccion> class portfolio*/
+
+.portfolio {
+  text-align: center;
+  width: 100%;
+  height: 900px;
+  box-sizing: border-box;
+}
+
+.portfolio p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  padding-top: 80px;
+}
+
+.portfolio i {
+    color: #2c3e50;
+}
+
+.portfolio i:after {
+    display: inline-block;
+    margin: 8px 15px 8px 15px;
+    height: 5px;
+    content: " ";
+    background-color: #2c3e50;
+    width: 100px;
 }
