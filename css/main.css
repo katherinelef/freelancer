@@ -22,7 +22,7 @@ ul {
 }
 
 .text-uppercase {
-text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 nav p a {
@@ -83,16 +83,16 @@ header p {
 }
 
 header i {
-    color: white;
+  color: white;
 }
 
 header i:after {
-    display: inline-block;
-    margin: 8px 15px 8px 15px;
-    height: 5px;
-    content: " ";
-    background-color: white;
-    width: 100px;
+  display: inline-block;
+  margin: 8px 15px 8px 15px;
+  height: 5px;
+  content: " ";
+  background-color: white;
+  width: 100px;
 }
 
 header div {
@@ -119,16 +119,16 @@ header div {
 }
 
 .portfolio i {
-    color: #2c3e50;
+  color: #2c3e50;
 }
 
 .portfolio i:after {
-    display: inline-block;
-    margin: 8px 15px 8px 15px;
-    height: 5px;
-    content: " ";
-    background-color: #2c3e50;
-    width: 100px;
+  display: inline-block;
+  margin: 8px 15px 8px 15px;
+  height: 5px;
+  content: " ";
+  background-color: #2c3e50;
+  width: 100px;
 }
 
 .portfolio img {
@@ -156,16 +156,16 @@ header div {
 }
 
 .about i {
-    color: white;
+  color: white;
 }
 
 .about i:after {
-    display: inline-block;
-    margin: 8px 15px 8px 15px;
-    height: 5px;
-    content: " ";
-    background-color: white;
-    width: 100px;
+  display: inline-block;
+  margin: 8px 15px 8px 15px;
+  height: 5px;
+  content: " ";
+  background-color: white;
+  width: 100px;
 }
 
 .descripcion p {
@@ -192,9 +192,9 @@ header div {
   margin-top: 10px;
   }
 
-  .about a:hover {
-    background: white;
-    color:#18bc9c;
+.about a:hover {
+  background: white;
+  color:#18bc9c;
   }
 
 /*ESTILO DE ETIQUETA <seccion> class contact me*/
@@ -204,6 +204,7 @@ header div {
   width: 100%;
   height: 900px;
   box-sizing: border-box;
+  margin-bottom: 110px;
 }
 
 .contact-me p {
@@ -211,19 +212,20 @@ header div {
   font-size: 45px;
   font-weight: bold;
   padding-top: 80px;
+
 }
 
 .contact-me i {
-    color: #2c3e50;
+  color: #2c3e50;
 }
 
 .contact-me i:after {
-    display: inline-block;
-    margin: 8px 15px 8px 15px;
-    height: 5px;
-    content: " ";
-    background-color: #2c3e50;
-    width: 100px;
+  display: inline-block;
+  margin: 8px 15px 0px 15px;
+  height: 5px;
+  content: " ";
+  background-color: #2c3e50;
+  width: 100px;
 }
 
 form {
@@ -237,9 +239,104 @@ form input {
   margin-left: 300px;
   padding: 30px;
   outline: none;
+  color: #868e96;
+  opacity: 0.8;
 }
 
 form hr {
   width: 50%;
+  color:#868e96;
+  opacity: 0.3;
+}
+
+.last {
+  margin-top: 160px;
+}
+
+.contact-me span {
+  display: block;
+  background: #18bc9c;
+  width: 80px;
+  height: 50px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px 5px 5px 5px;
+  box-sizing: border-box;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-left: 340px;
+}
+
+.contact-me span:hover {
+  color: white;
+  background: #128f76;
+}
+
+/*ESTILO DE ETIQUETA <footer>*/
+
+footer {
+  width: 100%;
+  height: 345px;
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+
+}
+
+footer div {
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+footer div:nth-last-child(4) {
+  margin-left: 180px;
+}
+
+.detalle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.texto {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+footer i {
+  border-radius: 50% ;
+  border: 2px solid white;
+  margin-left: 3px;
+  margin-top: 3px;
+
+}
+footer i:nth-last-child(1) {
+  padding: 15px 15px 15px 15px;
+}
+
+footer i:nth-last-child(2) {
+  padding: 15px 15px 15px 15px;
+}
+
+footer i:nth-last-child(3) {
+  padding: 15px 15px 15px 15px;
+}
+
+footer i:nth-last-child(4) {
+  padding: 15px 12px 15px 12px;
+}
+
+footer i:nth-last-child(5) {
+  padding: 15px 18px 15px 18px;
+}
+
+.copyright {
+  margin-top: 100px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
 
 }
