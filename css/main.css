@@ -30,7 +30,6 @@ nav p a {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: bold;
-
 }
 
 nav li a {
@@ -39,15 +38,14 @@ nav li a {
   font-size: 16px;
   font-weight: bold;
   padding-left: 10px;
-
 }
 
 li a:hover {
   color:#18bc9c;
 }
+
 nav li {
   display: inline-block;
-
 }
 
 .titulo , .menu{
@@ -231,6 +229,7 @@ header div {
 form {
   margin-top: 50px;
 }
+
 form input {
   display: block;
   border: none;
@@ -298,13 +297,13 @@ footer div:nth-child(1) {
 
 footer div:nth-child(2) {
   left: 450px;
-
 }
 
 footer div:nth-child(3) {
   width: 350px;
   right: 50px;
 }
+
 .detalle {
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
@@ -322,6 +321,7 @@ footer p:nth-child(3) {
   height: 50px;
   line-height: 1.5;
 }
+
 footer i {
   border-radius: 50% ;
   border: 2px solid white;
@@ -340,7 +340,6 @@ footer i {
 .fa-facebook {
   padding: 15px 18px 15px 18px;
 }
-
 
 .copyright {
   font-family: 'Lato', sans-serif;
