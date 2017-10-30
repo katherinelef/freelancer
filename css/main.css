@@ -286,57 +286,82 @@ footer {
 }
 
 footer div {
-  display: inline-block;
+  position: absolute;
   margin-left: 40px;
   margin-right: 40px;
-  margin-top: 20px;
+  margin-top: 55px;
 }
 
-footer div:nth-last-child(4) {
+footer div:nth-child(1) {
   margin-left: 180px;
 }
 
+footer div:nth-child(2) {
+  left: 450px;
+
+}
+
+footer div:nth-child(3) {
+  width: 350px;
+  right: 50px;
+}
 .detalle {
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
   font-weight: bold;
+  margin-bottom: 45px;
 }
 
 .texto {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
+  line-height: 0;
 }
 
+footer p:nth-child(3) {
+  height: 50px;
+  line-height: 1.5;
+}
 footer i {
   border-radius: 50% ;
   border: 2px solid white;
   margin-left: 3px;
   margin-top: 3px;
-
 }
-footer i:nth-last-child(1) {
+
+.fa-twitter, .fa-linkedin, .fa-dribbble {
   padding: 15px 15px 15px 15px;
 }
 
-footer i:nth-last-child(2) {
-  padding: 15px 15px 15px 15px;
-}
-
-footer i:nth-last-child(3) {
-  padding: 15px 15px 15px 15px;
-}
-
-footer i:nth-last-child(4) {
+.fa-google-plus {
   padding: 15px 12px 15px 12px;
 }
 
-footer i:nth-last-child(5) {
+.fa-facebook {
   padding: 15px 18px 15px 18px;
 }
 
-.copyright {
-  margin-top: 100px;
-  font-family: 'Lato', sans-serif;
-  text-align: center;
 
+.copyright {
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  top: 310px;
+  right: 5px;
+  }
+
+footer figure i:hover {
+  background: white;
+  color:#18bc9c;
+}
+
+footer figure a {
+  color: white;
+}
+
+#letra-verde {
+  color: #18bc9c;
+}
+
+#letra-verde:hover {
+  text-decoration: underline;
 }
