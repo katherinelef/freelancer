@@ -135,7 +135,22 @@ header div {
   height: 250px;
   margin: 15px;
 }
+.container {
+  background: white;
+  width: 80%;
+  height: 100%;
+  margin-left: 0;
+}
 
+#modal {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top:0;
+  z-index: 1000;
+      }
 /*ESTILO DE ETIQUETA <seccion> class about*/
 
 .about {
